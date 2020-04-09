@@ -59,7 +59,7 @@ jobs:
     - name: Clone UnBlockNeteaseMusic Mini
       run: |
         cd openwrt/package
-        git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic-mini.git
+        git clone https://github.com/Tuskio/luci-app-unblockneteasemusic-mini.git
         
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
